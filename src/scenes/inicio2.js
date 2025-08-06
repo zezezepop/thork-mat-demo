@@ -27,7 +27,7 @@ preload(){
             frameWidth:45,
             frameHeight:68
         })
-        this.load.spritesheet("npc1", "Assets/f_01.png",{
+        this.load.spritesheet("npc1", "Assets/F_01.png",{
             frameWidth:16,
             frameHeight: 17,
         })
