@@ -20,7 +20,7 @@ export class Inicio3 extends Phaser.Scene {
             frameHeight: 32,
         })
 
-        this.load.spritesheet("valentona", "Assets/f_10.png",{
+        this.load.spritesheet("valentona", "Assets/F_10.png",{
             frameWidth:16,
             frameHeight: 17,
         })
