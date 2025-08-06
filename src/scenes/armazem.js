@@ -20,13 +20,13 @@ export class Armazem extends Phaser.Scene {
         super("Armazem");
     }
     preload(){
-        this.load.image('provas', 'assets/provas.jpeg');
-        this.load.spritesheet("personagem", "assets/personagens.png", {
+        this.load.image('provas', 'Assets/provas.jpeg');
+        this.load.spritesheet("personagem", "Assets/personagens.png", {
             frameWidth: 32,
             frameHeight: 32,
         })
 
-        this.load.spritesheet("amigo", "assets/npc1.jpeg",{
+        this.load.spritesheet("amigo", "Assets/npc1.jpeg",{
             frameWidth:45,
             frameHeight:68
         })
