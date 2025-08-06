@@ -341,7 +341,7 @@ export function batalha(a){
             responderpergunta.addEventListener("click", responderitem)
 
         }
-        else if(bens[itemindex] === "Lapista"){
+        else if(bens[itemindex] === "Lapistab"){
             dialogoagora.innerText = "Você usou o lápis com tabuada!"; 
             dialogoagora.style.display = "block";
             a.input.keyboard.once("keydown-Z", () => {
@@ -6395,7 +6395,7 @@ export function batalha(a){
         else {
             dialogo = true
             retangulo.style.display = "block"
-            dialogoagora.innerText = "agora é o turno do jogador"
+            dialogoagora.innerText = "Agora é o turno do jogador"
             dialogoagora.style.display = "block"
 
             if (usoudefesaqi === true && vidaescudo === 0){

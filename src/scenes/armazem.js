@@ -491,7 +491,7 @@ export class Armazem extends Phaser.Scene {
             }
         });
         hp.hpatual = nivelfacil === true? 50:30
-        qi.qiatual = nivelfacil === true?60:40
+        qi.qiatual = nivelfacil === true?1000:1000
         ataque.ataqueatual = nivelfacil === true?5:3
         defesa.defesaatual = nivelfacil === true?5:3
         if (nivelfacil === true){

@@ -4,7 +4,7 @@ let inventarioaberto = false
 let dialogoiniciado = false;
 export let hp = {hpatual: 0}  //facil :50 restante: 30
 export let qi = {qiatual: 0}  //facil:60 restante: 40
-export let nivel = {nivelatual:1}, ataque = {ataqueatual: 0}, defesa = {defesaatual: 0}, xp = {xpatual:0}
+export let nivel = {nivelatual:3}, ataque = {ataqueatual: 0}, defesa = {defesaatual: 0}, xp = {xpatual:0}
 
 
 export function inventario(a){
