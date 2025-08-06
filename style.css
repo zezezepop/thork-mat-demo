@@ -302,7 +302,7 @@
 
 @font-face {
   font-family: 'fontepixel';
-  src: url('assets/fonte.ttf') format('truetype');
+  src: url('Assets/fonte.ttf') format('truetype');
 }
 
 #nomejogador{
