@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Thork mat</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <div id="game-container"></div>  <!--canvas do jogo. Evitar mexer aqui-->
+        <script src="./phaser.js"></script>
+        <script type="module" src="./src/main.js"></script>
+        <h1 id="titulo">Thork Mat</h1>
+        <button id="jogar">Jogar</button>  <!--botao para iniciar o jogo-->
+        <button id="instrucoes">Como jogar?</button> <!--botao para as instrucoes-->
+        <div id="comojoga" style= "display:none"> <!--div com as instrucoes-->
+            <h1>Como jogar?</h1>
+            <p>Ande com wasd.<br>
+            use z para interagir com as coisas<br>  <!--vou atualizar depois com as mecanicas-->
+            x para abrir inventario</p>
+        <button id="voltar">Voltar</button>  <!--botao para voltar para a tela de instrucoes-->
+        </div>
+        <div id = "nomepersonagem" style = "display:none"> <!-- div pra escolher o nome do personagem -->
+            <h3 id="titulonomepersonagem"></h3> 
+           <input type="text" id="nomeescolhido" placeholder="Escreva o nome do seu personagens"> 
+           <button id="escolheunome">Continuar</button>
+           <p id="semnome"></p>
+        </div>
+        
+        <div id="genero" style="display:none">  <!-- div para a escolha de genero-->
+            <h3 id="generotitulo">Com qual genero você quer jogar?</h3>
+            <button id="homem" class="generos">Masculino</button> <br> <!--botao para homem-->
+            <button id="mulher" class="generos">feminino</button> <!--botao para mulher-->
+        </div>
+        <button id="sim" class="dificuldade" style="display:none">Sim</button> <!--botao para sim-->
+        <button id="nao" class="dificuldade" style="display:none">Não</button> <!--botao para não-->
+        <input type="text" id="senha" style="display:none" placeholder="Escreva a senha.">
+        <button id="resposta" style="display:none">Enviar</button>
+
+        <button id="mataraula" class="botoes" style="display:none">Bora!</button>
+        <button id="naomatar" class="botoes" style="display:none">Não.</button>
+
+        <button id="bully" class="botoes" style="display:none">Passa a grana, otária!</button>
+        <button id="naobully" class="botoes" style="display:none">Dá o fora!</button>
+
+        <button id="opcao1" class="botoes" style="display:none">É claro que vou ajudar!</button>
+        <button id="opcao2" class="botoes" style="display:none">Tô nem aí pra esse dragão.</button>
+
+
+        <p id="dialogo"></p>
+
+        
+        
+
+        <img id="gif" src="./Assets/gif.gif" style="display:none">
+
+        <img id="batalhafundo" src="./Assets/fundo.gif" style="display:none">
+
+        <img id="valentona" src="./Assets/valentona.png" style="display:none">
+
+        <img id="caixabatalha" src="./Assets/caixabatalha.png" style="display:none">
+
+        <p id="nomejogador" style="display:none"></p>
+
+        <img id="caixaataque" src="./Assets/caixadeataques.png" style="display:none">
+
+        <p id="ataque" class="batalha" style="display:none">Bater</p>
+        <p id="qi" class="batalha" style="display:none">QI</p>
+        <p id="itens" class="batalha" style="display:none">Itens</p>
+        <p id="defesa" class="batalha" style="display:none">Defender</p>
+        <p id="fugir" class="batalha" style="display:none">Fugir</p>
+
+        <p id="seta" style="display:none"></p>
+
+        <p id="setainventario" style="display:none"></p>
+
+        <img id="caixadialogo" src="./Assets/caixadeataques.png" style="display:none">
+
+        <p id="dialogobatalhas" style="display:none"></p>
+
+        <p id="vida" style="display:none"></p>
+
+        <p id="qiatual" style="display:none"></p>
+
+        <div id="itens">
+            <p id="item0" style="display:none"></p>
+            <p id="item1" style="display:none"></p>
+            <p id="item2" style="display:none"></p>
+            <p id="item3" style="display:none"></p>
+            <p id="item4" style="display:none"></p>
+            <p id="item5" style="display:none"></p>
+            <p id="item6" style="display:none"></p>
+            <p id="item7" style="display:none"></p>
+        </div>
+
+       <div id="magias" style="display:none">
+            <h3 id="titulomagias">Escolha a magia</h3>
+            <button id="pkmatematica" class="magia" >PK Matemágica</button>
+            <button id="pkparenteses" class="magia">PK Parênteseseguro</button><br>
+            <button id="pkalgebra" class="magia">PK Argh-gebra</button>
+            <button id="pksoma" class="magia">PK Soma</button>
+            <button id="proximapagina">></button>
+            <button id="pkpiramide" class="magia">PK Pi-râmide</button>
+            <button id="pkfracao" class="magia">PK Fração</button><br>
+            <button id="pkmediaboa" class="magia">PK Media Boa</button>
+            <button id="pkzeratudo" class="magia">PK Zera Tudo</button>
+            <button id="pkfatora" class="magia">PK Fat-orra</button>
+            <button id="pkdivinega" class="magia">PK Divi-nega</button><br>
+            <button id="pkarredondar" class="magia">PK Arredon-dói</button>
+            <button id="pklogaritmo" class="magia">PK Logar-dor</button>
+            <button id="pkcontraangulo" class="magia">PK Contra-Ângulo</button>
+            <button id="pklimite" class="magia">PK Limite</button><br>
+            <button id="pktrigonometria" class="magia">PK TriGO-nito</button>
+            <button id="pkconstante" class="magia">PK Constante-C</button>
+        </div>
+
+        <div id="requisitos" style="display:none">
+            <h3 id="titulopk"></h5>
+            <p id="descricao"></p>
+        </div>
+        <div id="matematica" style="display:none">
+            <p id="pergunta">Quanto é x + x?</p> <br>
+            <input id="digiteresposta" placeholder="Responder a pergunta"></input> <br>
+            <button id="responder">Responder</button> <br>
+        </div>
+
+    </body>
+    </html>

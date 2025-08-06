@@ -1,0 +1,732 @@
+
+#jogar{ /*botao p/ iniciar o jogo*/
+    position: absolute;
+    font-size: 100px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.1); 
+    color: white;
+    cursor: pointer;
+    z-index: 10;
+    margin-top: 300px;
+    margin-left: 500px;
+}
+#jogar:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+
+#titulo{
+    position: absolute;
+    z-index: 10;
+    color:black;
+    text-align: center;
+    font-size: 150px;
+    margin-left: 250px;
+}
+
+#instrucoes{
+    z-index: 10;
+    position: absolute;
+    margin-top: 450px;
+    margin-left: 350px;
+    cursor: pointer;
+    font-size: 100px;
+    background-color: rgba(255, 255, 255, 0.1); 
+}
+
+#instrucoes:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+#comojoga {
+    z-index: 10;
+    position:absolute;
+    margin-left:350px;
+    margin-top:10px;
+    font-size:50px;
+}
+
+#voltar {
+    z-index: 10;
+    font-size:50px;
+    border-radius:10px;
+    margin-left:-330px;
+    margin-top: -450px;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+#voltar:hover{
+    background-color: rgba(255, 255, 255, 0.233);
+}
+
+
+
+#genero{
+    z-index: 10;
+    position: absolute;
+    color:white;
+}
+#generotitulo{
+    z-index: 10;
+    font-size: 50px;
+    margin-left: 300px;
+}
+
+.generos{
+    z-index: 10;
+    border-radius: 10px;
+    margin-left:300px;
+    font-size:50px;
+    cursor: pointer;
+}
+
+.generos:hover{
+    background-color:#b6abab
+}
+
+#nomepersonagem {
+    z-index: 10;
+    display: flex; 
+    position: absolute;
+    top: 50%;
+    left: 50%;         
+    flex-direction: column; 
+    align-items: center;     
+    justify-content: center; 
+    transform: translate(-50%, -50%); 
+}
+
+#titulonomepersonagem {
+    z-index: 10;
+    font-size: 50px;
+    margin-bottom:20px; 
+    color: #cccccc; 
+    text-align: center;
+}
+
+#nomeescolhido { 
+    z-index: 10;
+    width: 400px; 
+    font-size: 50px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #cccccc;
+    border: solid 2px #530101; 
+    padding: 10px 15px; 
+    text-align: center; 
+    box-sizing: border-box; 
+}
+
+#escolheunome { 
+    z-index: 10;
+    font-size: 50px;
+    border-radius: 10px;
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+    border: solid #530101 5px;
+    padding: 10px 30px;
+    color: #830000;
+    transition: background-color 0.3s ease;
+}
+
+#escolheunome:hover {
+    background-color: rgba(255, 255, 255, 0.2); /* Mudar cor ao passar o mouse */
+}
+
+#semnome{
+    z-index: 10;
+    font-size: 20px;
+    margin-bottom:20px; 
+    color: #cccccc; 
+    text-align: center;
+}
+
+#game-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+
+.dificuldade {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+
+#sim{
+    margin-top: 250px;
+    font-size:40px;
+    width:100px;
+    height:50px;
+    margin-left:630px;
+    background-color:rgba(0,0,255, 0.5);
+    border-radius:10px;
+    border:none;
+    cursor:pointer;
+}
+
+#nao{
+    margin-top: 350px;
+    font-size:40px;
+    width:100px;
+    height:50px;
+    margin-left:630px;
+    background-color:rgba(0,0,255, 0.5);
+    border-radius:10px;
+    border:none; 
+    cursor:pointer;
+    
+}
+
+#sim:hover{
+    background-color:rgba(0,0,55, 0.5);
+}
+
+#nao:hover{
+    background-color:rgba(0,0,55, 0.5);
+}
+
+#senha{
+    z-index: 10;
+    position: absolute;
+}
+
+#senha{
+    z-index: 10;
+    position: absolute;
+    background-color:rgba(0,0,255, 0.5);
+    border:none;
+    font-size:20px;
+    margin-top:300px;
+    margin-left:500px;
+    opacity:0.5;
+}
+
+
+#resposta{
+    z-index: 10;
+    position: absolute;
+    font-size:40px;
+    margin-top:350px;
+    margin-left:500px;
+    background-color:rgba(0,0,255, 0.5);
+    border:none;
+    cursor:pointer;
+}
+
+#resposta:hover{
+    background-color:rgba(0,0,55, 0.5);
+}
+
+.botoes{
+    z-index: 10;
+    position: absolute;
+    font-size:40px;
+    background-color:rgba(0,0,255, 0.5);
+    border:none;
+    cursor:pointer;
+    border-radius:10px;
+}
+
+.botoes:hover{
+    background-color:rgba(0,0,55, 0.5);
+}
+
+#mataraula{
+    margin-top: 250px;
+    margin-left:620px;
+}
+
+#naomatar{
+    margin-top: 330px;
+    margin-left:625px;  
+}
+
+#bully{
+    margin-top:250px;
+    margin-left:420px;
+}
+#naobully{
+    margin-top:330px;
+    margin-left:520px;
+}
+
+
+#gif{
+    z-index: 10;
+    position: absolute;
+    
+}
+
+#gif{
+    z-index: 10;
+    position: absolute;
+    margin-left:300px;
+    margin-top:150px;
+    opacity: 0.5;
+}
+
+#batalhafundo{
+    z-index: 10;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; 
+}
+
+#valentona{
+    z-index: 10;
+    position: absolute;
+    width:300px;
+    height:300px;
+    margin-left:35%;
+    margin-top:50px;
+}
+
+#caixabatalha{
+    z-index: 10;
+    position: absolute;
+    width: 800px;
+    height:800px;
+    margin-top:-180px;
+    margin-left:450px;
+}
+
+@font-face {
+  font-family: 'fontepixel';
+  src: url('assets/fonte.ttf') format('truetype');
+}
+
+#nomejogador{
+    z-index: 10;
+    position: absolute;
+    color: white;
+    font-family: fontepixel;
+    margin-left:530px;
+    margin-top:400px;
+}
+
+#caixaataque{
+    z-index: 10;
+    position: absolute;
+    width:600px;
+    height:auto;
+    margin-left:-70px;
+    margin-top:-10px;
+}
+
+.batalha{
+    z-index: 10;
+    position: absolute;
+    color: white;
+}
+
+#ataque{
+    margin-top:30px;
+    margin-left:40px;
+    font-size:20px;
+    font-family:fontepixel;
+    
+}
+
+#qi{
+    font-size:20px;
+    margin-top:75px;
+    margin-left:40px;
+    font-family:fontepixel;
+}
+
+#itens{
+    font-size:20px;
+    margin-top:30px;
+    margin-left:180px;
+    font-family:fontepixel;
+
+}
+
+#defesa{
+    font-size:20px;
+    margin-top:75px;
+    margin-left:180px;
+    font-family:fontepixel;
+}
+
+#fugir{
+    font-size:20px;
+    font-family:fontepixel;
+    margin-left:350px;
+    margin-top:45px;
+}
+
+#seta{
+    z-index: 10;
+    position: absolute;
+    color: white;
+    font-family:fontepixel;
+    margin-top:32px;
+    margin-left:25px;
+    
+    
+}
+
+
+#caixadialogo{
+    z-index: 10;
+    position: absolute;
+    width:1100px;
+    height:1000px;
+    margin-top:400px;
+    margin-left:50px;
+
+}
+
+#dialogobatalhas{
+    z-index: 10;
+    position: absolute;
+    color: white;
+    font-family:fontepixel;
+    font-size:18px;
+    margin-top:530px;
+    margin-left:280px;
+}
+
+#vida{
+    z-index: 10;
+    position: absolute;
+    color: black;
+    font-family:fontepixel;
+    font-size:35px;
+    margin-left:580px;
+    margin-top:456px;
+
+}
+
+#qiatual{
+    z-index: 10;
+    position: absolute;
+    color: black;
+    font-family:fontepixel;
+    font-size:35px;
+    margin-left:580px;
+    margin-top:512px;
+
+}
+
+/*itens*/
+
+#itens{
+    font-family:fontepixel;
+    color: white;
+    font-size:15px;
+}
+
+#item0{
+    z-index:10;
+    position:absolute;
+    margin-top:33px;
+    margin-left:-130px; 
+}
+
+#item1{
+    z-index:10;
+    position:absolute;
+    margin-left:-130px;
+    margin-top:77px;
+    
+}
+
+#item2{
+    z-index:10;
+    position:absolute;
+    margin-top:33px;
+    margin-left:-30px;
+}
+
+#item3{
+    z-index:10;
+    position:absolute;
+    margin-top:77px;
+    margin-left:-30px;    
+ }
+
+
+#item4{
+    z-index:10;
+    position:absolute;
+    margin-top:33px;
+    margin-left:70px; 
+}
+
+#item5{
+    z-index:10;
+    position:absolute;
+    margin-left:70px;
+    margin-top:77px;
+    
+}
+
+#item6{
+    z-index:10;
+    position:absolute;
+    margin-top:33px;
+    margin-left:170px;
+}
+
+#item7{
+    z-index:10;
+    position:absolute;
+    margin-top:77px;
+    margin-left:170px;    
+ }
+
+#titulomagias{
+    color:white;
+    z-index: 10;
+    position: absolute;
+    margin-top:20px;
+    margin-left:120px;
+    font-size:40px;
+    width:500px;
+
+}
+
+.magia{
+    z-index: 10;
+    position: absolute;
+    font-family:fontepixel;
+    background-color:black;
+    border:solid;
+    color:white;
+    font-size:17px;
+    border-radius:7px;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:3px;
+    padding-bottom:3px
+   
+ }
+#pkmatematica{
+    cursor:pointer;
+    margin-top:120px;
+    margin-left:30px;
+    width:200px;
+}
+
+#pkparenteses{
+    cursor:pointer;
+    margin-top:120px;
+    margin-left:270px;
+    width:250px;
+    
+}
+
+#pkalgebra{
+    cursor:pointer;
+    margin-top:210px;
+    margin-left:30px;
+    width:200px;
+
+}
+
+#pksoma{
+    cursor:pointer;
+    margin-top:210px;
+    margin-left:270px;
+    width:150px;
+}
+
+#proximapagina{
+    cursor:pointer;
+    font-family:fontepixel;
+    z-index: 10;
+    position: absolute;
+    font-size:20px;
+    border:solid;
+    color:white;
+    background-color:black;
+    border-radius:7px;
+    margin-left:480px;
+    margin-top:280px;
+
+}
+#pkpiramide{
+    cursor:pointer;
+    margin-top:100px;
+    margin-left:30px;
+    width:200px;
+
+}
+#pkfracao{
+    cursor:pointer;
+    margin-top:210px;
+    margin-left:30px;
+    width:200px;
+
+}
+#pkmediaboa{
+    cursor:pointer;
+    margin-top:80px;
+    margin-left:270px;
+    width:250px;
+
+}
+#pkzeratudo{
+    cursor:pointer;
+    margin-top:190px;
+    margin-left:270px;
+    width:200px;
+
+}
+#magias {
+    font-family:fontepixel;
+    background-color: black;
+    border:solid;
+    color:white;
+    position: absolute;
+    margin-top:200px;
+    margin-left:300px;
+    width: 550px;  /* ajuste conforme necessário */
+    height: 350px;  /* ajuste conforme necessário */
+    border-radius: 10px; /* opcional */
+    z-index: 10;
+}
+.magia:hover, #proximapagina:hover{
+    background-color:#1f1c1c
+}
+#pkfatora{
+    cursor:pointer;
+    margin-top:80px;
+    margin-left:30px;
+    width:200px;
+
+}
+#pkdivinega{
+    cursor:pointer;
+    margin-top:190px;
+    margin-left:30px;
+    width:200px;
+}
+
+#pkarredondar{
+    cursor:pointer;
+    margin-top:60px;
+    margin-left:270px;
+    width:200px;
+}
+#pklogaritmo{
+    cursor:pointer;
+    margin-top:170px;
+    margin-left:270px;
+    width:200px;
+}
+
+#pkcontraangulo{
+    cursor:pointer;
+    margin-top:60px;
+    margin-left:30px;
+    width:210px;
+    
+}
+
+#pklimite{
+    cursor:pointer;
+    margin-top:170px;
+    margin-left:30px;
+    width:200px;
+}
+
+#pktrigonometria{
+    cursor:pointer;
+    margin-top:40px;
+    margin-left:270px;
+    width:200px;
+}
+
+#pkconstante{
+    cursor:pointer;
+    margin-top:150px;
+    margin-left:270px;
+    width:200px;
+}
+
+#requisitos{
+    z-index: 10;
+    position: absolute;
+    color: white;
+    font-family: fontepixel;
+    background-color:black;
+    border:solid;
+    padding-left:40px;
+    padding-right:40px;
+    margin-left:800px;
+    margin-top:10px;
+    border-radius: 7px;
+}
+
+#matematica{
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-family: fontepixel;
+    background-color: black;
+    border: solid;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    margin-left: 500px;
+    border-radius: 7px;
+  
+}
+
+#pergunta{
+    margin-top: 20px;
+
+   
+
+}
+
+#digiteresposta{
+    background-color: black;
+    color: white;
+    border: solid;
+    font-family: fontepixel;
+    font-size: 20px;
+    margin-top: 50px;
+    border-radius: 7px;
+    
+}
+
+#responder{
+    background-color: black;
+    color: white;
+    border: solid;
+    font-family: fontepixel;
+    font-size: 30px;
+    margin-top: 60px;
+    cursor: pointer;
+    border-radius: 7px;
+}
+
+#responder:hover{
+    background-color:#1f1c1c
+}
+
+#opcao1{
+    margin-top:250px;
+    margin-left:430px;
+}
+
+#opcao2{
+    margin-top:330px;
+    margin-left:390px;
+}
