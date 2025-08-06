@@ -7060,6 +7060,7 @@ export function batalha(a){
             a.input.keyboard.once("keydown-Z",()=>{
                 dialogoagora.style.display = "none"
                 retangulo.style.display = "none"
+                location.reload()
             })
             
             });
@@ -7141,6 +7142,7 @@ export function batalha(a){
                 a.input.keyboard.once("keydown-Z",()=>{
                     dialogoagora.style.display = "none"
                     retangulo.style.display = "none"
+                    location.reload()
                 })
             });
         }
