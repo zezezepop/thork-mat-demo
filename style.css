@@ -309,7 +309,7 @@
     z-index: 10;
     position: absolute;
     color: white;
-    font-family: fontepixel;
+    font-family: 'fontepixel';
     margin-left:530px;
     margin-top:400px;
 }
@@ -333,7 +333,7 @@
     margin-top:30px;
     margin-left:40px;
     font-size:20px;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     
 }
 
@@ -341,14 +341,14 @@
     font-size:20px;
     margin-top:75px;
     margin-left:40px;
-    font-family:fontepixel;
+    font-family:'fontepixel';
 }
 
 #itens{
     font-size:20px;
     margin-top:30px;
     margin-left:180px;
-    font-family:fontepixel;
+    font-family:'fontepixel';
 
 }
 
@@ -356,12 +356,12 @@
     font-size:20px;
     margin-top:75px;
     margin-left:180px;
-    font-family:fontepixel;
+    font-family:'fontepixel';
 }
 
 #fugir{
     font-size:20px;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     margin-left:350px;
     margin-top:45px;
 }
@@ -370,7 +370,7 @@
     z-index: 10;
     position: absolute;
     color: white;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     margin-top:32px;
     margin-left:25px;
     
@@ -392,7 +392,7 @@
     z-index: 10;
     position: absolute;
     color: white;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     font-size:18px;
     margin-top:530px;
     margin-left:280px;
@@ -402,7 +402,7 @@
     z-index: 10;
     position: absolute;
     color: black;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     font-size:35px;
     margin-left:580px;
     margin-top:456px;
@@ -413,7 +413,7 @@
     z-index: 10;
     position: absolute;
     color: black;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     font-size:35px;
     margin-left:580px;
     margin-top:512px;
@@ -423,7 +423,7 @@
 /*itens*/
 
 #itens{
-    font-family:fontepixel;
+    font-family:'fontepixel';
     color: white;
     font-size:15px;
 }
@@ -501,7 +501,7 @@
 .magia{
     z-index: 10;
     position: absolute;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     background-color:black;
     border:solid;
     color:white;
@@ -545,7 +545,7 @@
 
 #proximapagina{
     cursor:pointer;
-    font-family:fontepixel;
+    font-family:'fontepixel';
     z-index: 10;
     position: absolute;
     font-size:20px;
@@ -586,7 +586,7 @@
 
 }
 #magias {
-    font-family:fontepixel;
+    font-family:'fontepixel';
     background-color: black;
     border:solid;
     color:white;
@@ -661,7 +661,7 @@
     z-index: 10;
     position: absolute;
     color: white;
-    font-family: fontepixel;
+    font-family: 'fontepixel';
     background-color:black;
     border:solid;
     padding-left:40px;
@@ -675,7 +675,7 @@
     position: absolute;
     z-index: 10;
     color: white;
-    font-family: fontepixel;
+    font-family: 'fontepixel';
     background-color: black;
     border: solid;
     font-size: 20px;
@@ -699,7 +699,7 @@
     background-color: black;
     color: white;
     border: solid;
-    font-family: fontepixel;
+    font-family: 'fontepixel';
     font-size: 20px;
     margin-top: 50px;
     border-radius: 7px;
@@ -710,7 +710,7 @@
     background-color: black;
     color: white;
     border: solid;
-    font-family: fontepixel;
+    font-family: 'fontepixel';
     font-size: 30px;
     margin-top: 60px;
     cursor: pointer;
