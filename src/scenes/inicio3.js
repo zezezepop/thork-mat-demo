@@ -14,23 +14,23 @@ export class Inicio3 extends Phaser.Scene {
     }
 
     preload(){
-        this.load.image('corredor', 'assets/corredor.jpeg');
-        this.load.spritesheet("personagem", "assets/personagens.png", {
+        this.load.image('corredor', 'Assets/corredor.jpeg');
+        this.load.spritesheet("personagem", "Assets/personagens.png", {
             frameWidth: 32,
             frameHeight: 32,
         })
 
-        this.load.spritesheet("valentona", "assets/f_10.png",{
+        this.load.spritesheet("valentona", "Assets/f_10.png",{
             frameWidth:16,
             frameHeight: 17,
         })
 
-        this.load.spritesheet("amigo", "assets/npc1.jpeg",{
+        this.load.spritesheet("amigo", "Assets/npc1.jpeg",{
             frameWidth:45,
             frameHeight:68
         })
 
-        this.load.audio("boss", "assets/boss.mp3")
+        this.load.audio("boss", "Assets/boss.mp3")
     }
 
     create(){
